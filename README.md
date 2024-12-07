@@ -8,7 +8,7 @@ AdventJS is a coding challenge designed for developers to improve their JavaScri
 
 | Day  | Challenge Title             | Solution Link            |  
 |------|-----------------------------|--------------------------|  
-| 1️⃣   | Example Challenge Title 1   | [Solution](./solutions/day1/day1.md)    |   
+| 1️⃣   | 🎁 First gift repeated!   | [Solution](./solutions/day1/day1.md)    |   
 
 Check back daily for updates as I work through the challenges!  
 ## 🌟 Acknowledgements
