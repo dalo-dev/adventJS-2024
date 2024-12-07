@@ -9,11 +9,12 @@ AdventJS is a coding challenge designed for developers to improve their JavaScri
 
 ## 📅 Challenge Progress
 
-| Day | Challenge Title             | Solution Link                        |
-| --- | --------------------------- | ------------------------------------ |
-| 1️⃣  | 🎁 First gift repeated!     | [Solution](./solutions/day1/day1.md) |
-| 2️⃣  | 🖼️ Framing names            | [Solution](./solutions/day2/day2.md) |
-| 3️⃣  | 🏗️ Organizing the inventory | [Solution](./solutions/day3/day3.md) |
+| Day | Challenge Title                  | Solution Link                        |
+| --- | -------------------------------- | ------------------------------------ |
+| 1️⃣  | 🎁 First gift repeated!          | [Solution](./solutions/day1/day1.md) |
+| 2️⃣  | 🖼️ Framing names                 | [Solution](./solutions/day2/day2.md) |
+| 3️⃣  | 🏗️ Organizing the inventory      | [Solution](./solutions/day3/day3.md) |
+| 4️⃣  | 🎄 Decorating the Christmas tree | [Solution](./solutions/day4/day4.md) |
 
 Check back daily for updates as I work through the challenges!
 
