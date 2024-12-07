@@ -15,6 +15,7 @@ AdventJS is a coding challenge designed for developers to improve their JavaScri
 | 2️⃣  | 🖼️ Framing names                 | [Solution](./solutions/day2/day2.md) |
 | 3️⃣  | 🏗️ Organizing the inventory      | [Solution](./solutions/day3/day3.md) |
 | 4️⃣  | 🎄 Decorating the Christmas tree | [Solution](./solutions/day4/day4.md) |
+| 5️⃣  | 👞 Shoe pairing                  | [Solution](./solutions/day5/day5.md) |
 
 Check back daily for updates as I work through the challenges!
 
