@@ -20,6 +20,7 @@ AdventJS is a coding challenge designed for developers to improve their JavaScri
 | 7️⃣   | 👹 The Grinch's attack           | [Solution](./solutions/day-07/day-07.md) |
 | 8️⃣   | 🦌 The reno race                 | [Solution](./solutions/day-08/day-08.md) |
 | 9️⃣   | 🚂 The magic train               | [Solution](./solutions/day-09/day-09.md) |
+| 1️⃣0️⃣ | 👩‍💻 The elfish assembler          | [Solution](./solutions/day-10/day-10.md) |
 | 1️⃣1️⃣ | 🏴‍☠️ Filenames encoded             | [Solution](./solutions/day-11/day-11.md) |
 
 Check back daily for updates as I work through the challenges!
