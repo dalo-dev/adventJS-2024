@@ -52,37 +52,36 @@ console.log(moveTrain(board, "R"));
 
 ## 💡 Approach and Solution
 
-To solve the problem of moving the train on a board, I implemented the moveTrain function that determines whether the train eats a fruit, crashes, or moves to an empty space.
+The `moveTrain` function simulates the movement of a train engine (`@`) on a grid-based board and determines the outcome of the move based on the provided direction.
 
-1. **Identify Train's Position**:
+### Approach
 
-   - Use `findIndex()` to locate the row (`trainBoard`) containing the train's head (`@`).
-   - Use `indexOf()` to find the exact position of the head within the row (`trainPos`).
+1. **Locate the Train Engine**:
 
-2. **Calculate the Next Position**:
+   - Find the row (`engineX`) and column (`engineY`) of the train engine (`@`) on the board.
 
-   - Based on the movement direction (`mov`), calculate the next possible position using a dictionary object `nextPos`.
+2. **Define Movements**:
 
-     - `'U'`: Up — move to the row above, keeping the same column.
-     - `'D'`: Down — move to the row below, keeping the same column.
-     - `'L'`: Left — move to the same row, one column to the left.
-     - `'R'`: Right — move to the same row, one column to the right.
+   - Create a `moves` object mapping directions (`U`, `R`, `D`, `L`) to coordinate changes (`x`, `y`).
 
-3. **Check for Valid Movement**:
+3. **Check Boundary Conditions**:
 
-   - Ensure that the new position is within the bounds of the board.
-   - Depending on the value at the new position:
+   - Verify if the move will result in going out of bounds. If the next position is outside the board, return "crash".
 
-     - If it's `*`, the train "eats" (encounters its body).
-     - If it's `·`, the train moves to an empty space and continues.
-     - If it's any other character (like `@` for the head or `o` for a fruit), it crashes.
+4. **Determine the Next Position**:
 
-4. Return the Result:
+   - Use the `moves` object to calculate the next position on the board.
+   - Check the content of the next position:
+     - `*`: Return "eat".
+     - `·`: Return "none".
+     - Any other value: Return "crash".
 
-   - Return "eat" if the train eats, "none" if it moves to an empty space, or "crash" if it crashes.
+5. **Return the Outcome**:
+
+   - Based on the next position's content, return the corresponding result.
 
 ## 🎉 What I Learned
 
-- Using `findIndex()` and `indexOf()` helped efficiently locate the train's head and determine its position on the board.
-- The dictionary approach for next positions (`nextPos`) provided a clean and readable way to handle movement in different directions.
-- Handling the edge cases of the board’s boundaries and different train interactions (eating, crashing, moving) was essential for robustness.
+- Mapping movements to coordinate changes simplifies navigation logic.
+- Validating boundary conditions prevents runtime errors and ensures robustness.
+- Simulating grid-based mechanics requires careful handling of indices and edge cases.

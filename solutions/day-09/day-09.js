@@ -1,21 +1,18 @@
 function moveTrain(board, mov) {
-  const trainBoard = board.findIndex((path) => path.includes("@"));
-  const trainPos = board[trainBoard].indexOf("@");
+  const engineX = board.findIndex((x) => x.includes("@"));
+  const engineY = board[engineX].indexOf("@");
 
-  const nextPos = {
-    U: trainBoard > 0 ? board[trainBoard - 1][trainPos] : undefined,
-    D:
-      trainBoard < board.length - 1
-        ? board[trainBoard + 1][trainPos]
-        : undefined,
-    L: trainPos > 0 ? board[trainBoard][trainPos - 1] : undefined,
-    R:
-      trainPos < board[trainBoard].length - 1
-        ? board[trainBoard][trainPos + 1]
-        : undefined,
+  const moves = {
+    U: { x: 0, y: -1 },
+    R: { x: 1, y: 0 },
+    D: { x: 0, y: 1 },
+    L: { x: -1, y: 0 },
   };
 
-  if (nextPos[mov] === "*") return "eat";
-  if (nextPos[mov] === "·") return "none";
+  if (!board[engineX + moves[mov].y]) return "crash";
+  const nextPos = board[engineX + moves[mov].y][engineY + moves[mov].x];
+
+  if (nextPos === "*") return "eat";
+  if (nextPos === "·") return "none";
   return "crash";
 }
