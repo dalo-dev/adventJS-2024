@@ -28,6 +28,7 @@ AdventJS is a coding challenge designed for developers to improve their JavaScri
 | 1️⃣5️⃣ | ✏️ Drawing tables                | [Solution](./solutions/day-15/day-15.md) |
 | 1️⃣6️⃣ | ❄️ Cleaning the snow path        | [Solution](./solutions/day-16/day-16.md) |
 | 1️⃣7️⃣ | 💣 Grinch's bombs                | [Solution](./solutions/day-17/day-17.md) |
+| 1️⃣8️⃣ | 📇 Santa's Magic Agenda          | [Solution](./solutions/day-18/day-18.md) |
 
 Check back daily for updates as I work through the challenges!
 
