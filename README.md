@@ -25,6 +25,7 @@ AdventJS is a coding challenge designed for developers to improve their JavaScri
 | 1️⃣2️⃣ | 💵 How much does the tree cost?  | [Solution](./solutions/day-12/day-12.md) |
 | 1️⃣3️⃣ | 🤖 Is the robot back?            | [Solution](./solutions/day-13/day-13.md) |
 | 1️⃣4️⃣ | 🦌 Weaving the reno              | [Solution](./solutions/day-14/day-14.md) |
+| 1️⃣5️⃣ | ✏️ Drawing tables                | [Solution](./solutions/day-15/day-15.md) |
 
 Check back daily for updates as I work through the challenges!
 
