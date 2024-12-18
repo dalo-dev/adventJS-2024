@@ -24,5 +24,3 @@ function calculatePrice(ornaments) {
 
   return sum;
 }
-
-console.log(calculatePrice("o^o*"));

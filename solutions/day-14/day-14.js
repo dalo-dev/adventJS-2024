@@ -9,5 +9,3 @@ function minMovesToStables(reindeer, stables) {
 
   return sum;
 }
-
-console.log(minMovesToStables([1, 1, 3], [1, 8, 4]));
