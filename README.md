@@ -30,6 +30,7 @@ AdventJS is a coding challenge designed for developers to improve their JavaScri
 | 1️⃣7️⃣ | 💣 Grinch's bombs                       | [Solution](./solutions/day-17/day-17.md) |
 | 1️⃣8️⃣ | 📇 Santa's Magic Agenda                 | [Solution](./solutions/day-18/day-18.md) |
 | 1️⃣9️⃣ | 📦 Stack magical boxes to deliver gifts | [Solution](./solutions/day-19/day-19.md) |
+| 2️⃣0️⃣ | 🎁 Find missing and duplicate gifts     | [Solution](./solutions/day-20/day-20.md) |
 
 Check back daily for updates as I work through the challenges!
 
