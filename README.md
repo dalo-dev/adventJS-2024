@@ -36,6 +36,7 @@ AdventJS is a coding challenge designed for developers to improve their JavaScri
 | 2️⃣3️⃣ | 🔢 Find the missing numbers                   | [Solution](./solutions/day-23/day-23.md) |
 | 2️⃣4️⃣ | 🪞 Check if trees are magical mirrors         | [Solution](./solutions/day-24/day-24.md) |
 | 2️⃣5️⃣ | 🪄 Execute the magical language               | [Solution](./solutions/day-25/day-25.md) |
+| 2️⃣6️⃣ | 🎯 Calculate the completed percentage         | [Solution](./solutions/day-26/day-26.md) |
 
 Check back daily for updates as I work through the challenges!
 
