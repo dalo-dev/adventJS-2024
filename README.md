@@ -32,6 +32,7 @@ AdventJS is a coding challenge designed for developers to improve their JavaScri
 | 1️⃣9️⃣ | 📦 Stack magical boxes to deliver gifts       | [Solution](./solutions/day-19/day-19.md) |
 | 2️⃣0️⃣ | 🎁 Find missing and duplicate gifts           | [Solution](./solutions/day-20/day-20.md) |
 | 2️⃣1️⃣ | 🎄 Calculate the height of the Christmas tree | [Solution](./solutions/day-21/day-21.md) |
+| 2️⃣2️⃣ | 🎁 Generate Gift Sets                         | [Solution](./solutions/day-22/day-22.md) |
 | 2️⃣3️⃣ | 🔢 Find the missing numbers                   | [Solution](./solutions/day-23/day-23.md) |
 | 2️⃣4️⃣ | 🪞 Check if trees are magical mirrors         | [Solution](./solutions/day-24/day-24.md) |
 
