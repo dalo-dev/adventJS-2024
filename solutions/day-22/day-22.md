@@ -1,4 +1,4 @@
-# Challenge #22: 🎁 Generate Gift Sets
+# Challenge #22: 🎁 Generate gift combinations
 
 ## 🧠 Problem instructions
 
